@@ -10,6 +10,10 @@ DummyAdapter.prototype.start = function () {
 
 }
 
+DummyAdapter.prototype.stop = function () {
+
+}
+
 DummyAdapter.prototype.post = function (objectType, object) {
     this.dummyQueue.post(this, objectType, object)
 }
